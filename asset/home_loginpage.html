@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<title>Eldorado login</title>
+
+	<style type='text/css'>
+		table  
+		{  
+			position : relative;  
+			top: -4px;  
+			left: -4px;  
+			font-size: 20px;  
+			text-align: center;   
+			/*background: yellow;  */
+			background-image: url('./bg1.jpg');
+			border-collapse:collapse; 
+			width: 1280px;
+			height:720px;
+		}
+
+		input
+		{	
+			font-size: 25px
+		}
+	</style>
+
+</head>
+
+
+ <body>
+	<form name="flogin" method="post" action="login_check.php">
+	<table>
+		<tr>			
+			<td align="center" height=200 colspan="2"><strong><h2>[ ElDorado ]</h2></strong> Login please.<br><br></td>			
+		</tr>
+		<tr>			
+			<td align="right" height=70>ID : <input type="text" name="eldorado_user_id"></td>
+			<td align="center" height=70 width = 480></td>
+		</tr>
+		<tr>			
+			<td align="right" height=70>Password : <input type="password" name="eldorado_user_pw"></td>
+			<td align="center" height=70 width = 480></td>
+		</tr>
+		<tr>
+			<td align="center" height=100 colspan="2"><input type="submit" value=" Login " name="language"></td>
+		</tr>
+		<tr>
+			<td align="center" height=100 colspan="2"><a href="./make_id.html">Make New ID</a>
+				<br> <a href="./login_kr.html">한글</a>
+			</td>
+		</tr>
+		<tr>
+			<td align="center" height=150 colspan="2"></td>
+		</tr>
+	</table>
+	</form>
+	<!-- a href='./login_kr.html'>KOR</a -->
+ </body>
+</html>
